@@ -35,8 +35,8 @@ const Map = ({ router }) => {
         [bBox[2], bBox[3]],
       ],
       {
-        padding: 5,
-        offset: [0, -20],
+        padding: 0,
+        offset: [0, 0],
       }
     );
 
