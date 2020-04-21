@@ -8,17 +8,11 @@ import bbox from "@turf/bbox";
 const paramsToObject = (entries) => {
   let result = {};
   for (let entry of entries) {
-    // each 'entry' is a [key, value] tupple
     const [key, value] = entry;
     console.log(value);
     result[key] = JSON.parse(value);
   }
   return result;
-  // return Object.keys(entries).reduce((accum, key) => {
-  //   accum[key] = JSON.parse(entries[key]);
-  //   console.log(accum);
-  //   return accum;
-  // }, {});
 };
 
 const Map = ({ router }) => {
