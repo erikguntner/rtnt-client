@@ -8,8 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@turf/turf": "^5.1.6",
+    "dotenv": "^8.2.0",
     "next": "9.3.5",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-map-gl": "^5.2.5",
+    "viewport-mercator-project": "^7.0.1"
   }
 }
